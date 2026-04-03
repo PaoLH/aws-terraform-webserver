@@ -13,6 +13,10 @@ The infraestructure follows AWS best practices for scalable environments:
 - Security group: Configured under the least privilege principle, allowing only the following traffic:
     -> HTTP (Port 80): For public access to the web server
     -> SSH (Port 22): For remote management and administration
+  
+## **-- Solution architecture --**
+The following details the network topology automatically deployed with Terraform:
+![Diagrama de Arquitectura](./diagrama.png)
 
 ## **-- Technology stack --** 🛠️
 - Cloud provider: AWS (EC2, VPC, subnets, route tables) ☁️
