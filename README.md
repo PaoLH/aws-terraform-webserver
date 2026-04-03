@@ -23,7 +23,7 @@ The following details the network topology automatically deployed with Terraform
 - Cloud provider: AWS (EC2, VPC, subnets, route tables) ☁️
 - IaC: Terraform v1.14.7
 - Web server: Apache on Amazon Linux
-- Automation: Bash scripting (user data= for automatic service installation and configuration
+- Automation: Bash scripting (user data: for automatic service installation and configuration
 
 ## **-- Deployment guide --** 
 1. Prerequisites: Have Terraform and AWS CLI installed.
