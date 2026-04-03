@@ -26,11 +26,15 @@ The following details the network topology automatically deployed with Terraform
 - Automation: Bash scripting (user data: for automatic service installation and configuration
 
 ## **-- Deployment guide --** 
-1. Prerequisites: Have Terraform and AWS CLI installed.
+1. Prerequisites: Have Terraform (https://www.terraform.io/downloads) and AWS CLI installed (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 2. Configuration: Run 'aws configure' with IAM credentials.
 3. Initialization: Run 'terraform init' to download the AWS providers.
 4. Planning: Run 'terraform plan' to validate the resources to be created.
 5. Execution: Run 'terraform apply -auto-approve'
+
+## **-- Cleanup --**
+To avoid unnecessary costs, destroy all infraestructure once you are finished:
+- Destruction: Run 'terraform destroy -auto-approve'
 
 ## **-- Deployment evidence --** 📸
 Once the instance is deployed, you can access the generated public IP address to verify the server's functionality:
