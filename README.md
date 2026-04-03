@@ -16,6 +16,7 @@ The infraestructure follows AWS best practices for scalable environments:
   
 ## **-- Solution architecture --**
 The following details the network topology automatically deployed with Terraform:
+
 ![Diagrama de Arquitectura](./diagrama.png)
 
 ## **-- Technology stack --** 🛠️
@@ -33,6 +34,7 @@ The following details the network topology automatically deployed with Terraform
 
 ## **-- Deployment evidence --** 📸
 Once the instance is deployed, you can access the generated public IP address to verify the server's functionality:
+
 ![Deployment Result](./evidencia.png)
 
 ---
