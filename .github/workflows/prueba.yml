@@ -1,0 +1,15 @@
+name: prueba pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-code:
+    runs-on: self-hosted
+
+    steps:
+     - name: Probando mi runner en WSL
+       run:
+        echo "Probando mi primer pipeline con WSL"
